@@ -341,13 +341,13 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 20) return '肥灵都比你玩得好诶=。=';
-    if (score <= 30) return '也就比肥灵厉害一点点ne';
-    if (score <= 40) return '有点认真了嘛';
-    if (score <= 50) return '已经比热米厉害了哦！';
-    if (score <= 75) return '春节快乐！后面还有3级哦~';
-    if (score <= 100) return 'tql';
-    if (score <= 125) return '你离真相不是很远了哦';
+    if (score <= 10) return '(1/8)肥灵都比你玩得好诶=。=';
+    if (score <= 20) return '(2/8)可以在努力一下哦';
+    if (score <= 30) return '(3/8)有点认真了嘛~';
+    if (score <= 50) return '(4/8)已经比热米厉害了呢！';
+    if (score <= 75) return '(5/8)据说四个手指一起会更快哦';
+    if (score <= 99) return '(6/8)tql 是大佬';
+    if (score <= 125) return '(7/8)离终点不是很远了哦^_^';
     return '妮娜妈妈心灵支柱.jpg';
 }
 
