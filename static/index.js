@@ -341,11 +341,14 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
-    return '人？';
+    if (score <= 20) return '肥灵都比你玩得好诶=。=';
+    if (score <= 30) return '也就比肥灵厉害一点点ne';
+    if (score <= 40) return '有点认真了嘛';
+    if (score <= 50) return '已经比热米厉害了哦！';
+    if (score <= 75) return '春节快乐！后面还有3级哦~';
+    if (score <= 100) return 'tql';
+    if (score <= 125) return '你离真相不是很远了哦';
+    return '妮娜妈妈心灵支柱.jpg';
 }
 
 function toStr(obj) {
