@@ -344,11 +344,11 @@ function shareText(score) {
     if (score <= 9) return '1.肥灵都比你玩得好诶=。=';
     if (score <= 19) return '2.可以再努力一下哦';
     if (score <= 29) return '3.有点认真了嘛~';
-    if (score <= 44) return '4.是不是有点简单了呢';
+    if (score <= 44) return '4.通关是100+哦';
     if (score <= 59) return '5.还可以再快一点';
     if (score <= 74) return '6.比热米厉害了呢！';
     if (score <= 88) return '7.tql 是大佬';
-    if (score <= 99) return '8.离终点不是很远了哦^_^';
+    if (score <= 99) return '8.离终点不是很远了^_^';
     return '春节快乐！妮娜妈妈心灵支柱.jpg';
 }
 
