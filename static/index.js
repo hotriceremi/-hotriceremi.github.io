@@ -344,10 +344,10 @@ function shareText(score) {
     if (score <= 10) return '(1/8)肥灵都比你玩得好诶=。=';
     if (score <= 20) return '(2/8)可以再努力一下哦';
     if (score <= 30) return '(3/8)有点认真了嘛~';
-    if (score <= 50) return '(4/8)比热米厉害了呢！';
-    if (score <= 75) return '(5/8)据说用四个手指会更快哦';
-    if (score <= 99) return '(6/8)tql 是大佬';
-    if (score <= 125) return '(7/8)离终点不是很远了哦^_^';
+    if (score <= 45) return '(4/8)比热米厉害了呢！';
+    if (score <= 60) return '(5/8)还可以再快一点';
+    if (score <= 80) return '(6/8)tql 是大佬';
+    if (score <= 99) return '(7/8)离终点不是很远了哦^_^';
     return '春节快乐！妮娜妈妈心灵支柱.jpg';
 }
 
