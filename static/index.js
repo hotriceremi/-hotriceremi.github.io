@@ -342,8 +342,8 @@ function shareText(score) {
     }
     SubmitResults();
     if (score <= 9) return '1.肥灵都比你玩得好诶=。=';
-    if (score <= 19) return '2.可以再努力一下哦';
-    if (score <= 29) return '3.有点认真了嘛~';
+    if (score <= 19) return '2.好耶 超过肥灵了';
+    if (score <= 29) return '3.据说平均值是120左右哦';
     if (score <= 44) return '4.通关是100+哦';
     if (score <= 59) return '5.还可以再快一点';
     if (score <= 74) return '6.比热米厉害了呢！';
