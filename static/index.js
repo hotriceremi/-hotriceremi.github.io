@@ -342,7 +342,7 @@ function shareText(score) {
     }
     SubmitResults();
     if (score <= 9) return '1.肥灵都比你玩得好诶=。=';
-    if (score <= 19) return '2.好耶 超过肥灵了';
+    if (score <= 19) return '2.好耶！逐渐上手了呢';
     if (score <= 29) return '3.据说平均值是120左右哦';
     if (score <= 44) return '4.通关是100+哦';
     if (score <= 59) return '5.还可以再快一点';
@@ -351,7 +351,7 @@ function shareText(score) {
     if (score <= 99) return '8.离终点不是很远了^_^';
     if (score <= 129) return '春节快乐！妮娜妈妈心灵支柱.jpg';
     if (score <= 144) return '偷偷告诉你，元素战棍是猪hhh';
-    return '其实，肥灵也是猪 哼哼';
+    return '其实 不用这么肝的QAQ';
 }
 
 function toStr(obj) {
