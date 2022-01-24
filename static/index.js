@@ -349,7 +349,8 @@ function shareText(score) {
     if (score <= 74) return '6.比热米厉害了呢！';
     if (score <= 88) return '7.tql 是大佬';
     if (score <= 99) return '8.离终点不是很远了^_^';
-    return '春节快乐！妮娜妈妈心灵支柱.jpg';
+    if (score <= 129) return '春节快乐！妮娜妈妈心灵支柱.jpg';
+    return '偷偷告诉你，元素战棍是猪hhh';
 }
 
 function toStr(obj) {
