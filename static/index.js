@@ -350,7 +350,8 @@ function shareText(score) {
     if (score <= 88) return '7.tql 是大佬';
     if (score <= 99) return '8.离终点不是很远了^_^';
     if (score <= 129) return '春节快乐！妮娜妈妈心灵支柱.jpg';
-    return '偷偷告诉你，元素战棍是猪hhh';
+    if (score <= 144) return '偷偷告诉你，元素战棍是猪hhh';
+    return '其实，肥灵也是猪 哼哼';
 }
 
 function toStr(obj) {
